@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta name="referrer" content="origin">
 <head>
     <!-- <title>Personal SPA</title> -->
     <!-- core style -->
@@ -10,73 +11,104 @@
     <!-- templating style -->
     <link rel="stylesheet" type="text/css" href="css/spastyle.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" ">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" >
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
     <!-- issues with the responsiveness of the nav bar -->
 
-    <div class="container">
+    
 
-        <!-- <header class=" spaheader">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-12  ">
-                           <h2>Nicholas Smith</h2>
-                    </div>
-               </div>
-           </div>
-
-           </header>
-        -->
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <!--          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                      <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                    </button> -->
-
-                    <a href="#" class="navbar-brand">Nicholas Smith </a>
-                </div>
-
-                <div class="collaapse navbar-collaapse" id="myNavbar">
-
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#About">About me</a>
-                        </li>
-                        <li>
-                            <a href="#myEdu">My Education</a>
-                        </li>
-                        <li>
-                            <a href="#myskill">My Skills & Experience </a>
-                        </li>
-
-                    </ul>
-                </div>
+    <!--<nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">WebSiteName</a>
             </div>
-        </nav>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </div>
+    </nav>-->
 
-
-    </div>
 
 
 
 </head>
 <body>
+
+  
+
+
+    <section id="me"  style="background-color:	#371268"  >
+        <!--<div>
+            <h2> Welcome Mr Nick</h2>
+
+        </div>-->
+        
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-2">
+                   
+                </div>
+                <div class="col-lg-8">
+                    <img src="img/ID.jpg" class="prof img-responsive" alt="My profile" />
+                </div>
+
+                <!--<div class="col-lg-2">
+                    <div>
+                        <h2> hello Mr Nick</h2>
+
+                    </div>
+
+                </div>-->
+            </div>
+        </div>
+
+
+    </section>
+
+
     <!--  data-spy="scroll" data-target=".navbar" data-offset="50" -->
-    <div class="container home">
-    </div>
+    
+    <!--navbar-->
+    <nav class="navbar navbar-inverse d-inline-block" data-spy="affix" data-offset-top="197">
+        <div class="container-fluid">
+            <div class="navbar-header">
+               
+                <a class="navbar-brand" href="#">Nicholas Smith 
+                    <button type="button" style="height:100px; width:200px;" class="navbar-toggle icon-bar" data-toggle="collapse" data-target="#myNavbar">
+                        <!--<span class=""></span>-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                
+                </a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#About"> About Me</a></li>
+                        <li><a href="#myEdu"> My Education</a></li>
+                        <li><a href="#myskill"> MySkill/Experience</a></li>
+                        <li><a href="#contactme"> Contact Me</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
 
     <!-- about me -->
     <section id="About" style="background-color:white:">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About me</h2>
-                    <h3 class="section-subheading text-muted">Exactly, Exactly who is Nicholas?</h3>
+                    <h2 class="section-heading swagg">About me</h2>
+                    <h3 class="section-subheading text-muted lobb">Exactly, Exactly who is Nicholas?</h3>
 
                 </div>
             </div>
@@ -87,7 +119,7 @@
                         <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
                     </span>
                     <!-- <h4 class="service	-heading"></h4> -->
-                    <p class="text-muted">I am Nicholas Smith born in East London,Easten Cape and im there third out of four kids, I did my primary school in Butterworth and just as I was about to enter high school I left for Capetown where I was fortunate enough to join a junior high school that have ties with the best schools in the province, given you perform accordingly</p>
+                    <p class="text-muted">I am Nicholas Smith born in East London,Eastern Cape and I'm there third out of four kids, I did my primary school in Butterworth and just as I was about to enter high school I left for Capetown where I was fortunate enough to join a junior high school that have ties with the best schools in the province, given you perform accordingly</p>
                     <br>
                     <p class="text-muted">
                         I did my high school grades in "The Cape Academy of Mathematics, Science and Technology"
@@ -102,19 +134,16 @@
                     </span>
                     <h4 class="service-heading"></h4>
                     <p class="text-muted">
-                        As a kid I've always wanted to be a scientist and  "change the world" yes the cliche of everything, but aftera
+                        As a kid I've always wanted to be a scientist and  "change the world" yes the cliche of everything, but after-all its the truth, perhaps growing up in a less privileged community may in a way constraint your thinking and performance, but in all
 
-
-                        ll its the truth, perhaps growing up in a less privelaged community may in a way constraint your thinking and performance, but in all
-
-                        those communities there's one thing that brings about the great trancendence of imaginations, yes you know it its the invention of t
+                        those communities there's one thing that brings about the great transcendence of imaginations, yes you know it its the invention of t
                         v's, the perfect baby sitter
                     </p><br>
                     <p class="text-muted">
-                        I'm a very impressable guy when it comes to new technology and its ICT, ofcause not mideocar stuff I mean real legit skills and development.
+                        I'm a very impressible guy when it comes to new technology and its ICT, of cause not mediocre stuff I mean real legit skills and development.
                         so as I've mentioned I'm a movies fanatic, with great aspiring ideas and with healthy imaginations, its my key tool to escape
                         the reality i live and have a taste of the levish life.with that in mind I keep an open mind and make sure I don't miss an opportunity
-                        to push the limits, oh yes I'm still a big baby I like games, adventurerus explorations, most of all Spending quality time with my family
+                        to push the limits, oh yes I'm still a big baby I like games, adventurers explorations, most of all Spending quality time with my family
                     </p><br>
                 </div>
                 <div class="col-md-4">
@@ -123,7 +152,7 @@
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading"> </h4>
-                    <p class="text-muted">when I am around at home I get to do my favourate work in the world, programming my greatest passion above all its my everyday muse, what i think fascinates me more about it is that its forever changing and globally understood through out the world.</p>
+                    <p class="text-muted">when I am around at home I get to do my favorite work in the world, programming my greatest passion above all its my everyday muse, what i think fascinates me more about it is that its forever changing and globally understood through out the world.</p>
                 </div>
             </div>
 
@@ -138,8 +167,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Education</h2>
-                    <h3 class="section-subheading text-muted">Over the course of time I managed to achieve the following, just yet that is!</h3>
+                    <h2 class="section-heading swagg">My Education</h2>
+                    <h3 class="section-subheading text-muted lobb">Over the course of time I managed to achieve the following, just yet that is!</h3>
 
                 </div>
 
@@ -258,8 +287,8 @@
 
 
                     <div class=" text-center">
-                        <h2 class="section-heading">Skill and Experience</h2>
-                        <h3 class="section-subheading text-muted">An accummulation of skill set in a timeline.</h3>
+                        <h2 class="section-heading swagg">Skill and Experience</h2>
+                        <h3 class="section-subheading text-muted lobb">An accummulation of skill set in a timeline.</h3>
                     </div>
                     <ul class="timeline">
                         <li>
@@ -323,8 +352,8 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h2>
+                            <div class="timeline-image swagg">
+                                <h2 style="color:#fff;">
                                     <br>Be Part
                                     <br>Of My
                                     <br>Story!
@@ -350,7 +379,7 @@
     </section>
 
     <!--contact me-->
-    <section style="background-color: #371268">
+    <section style="background-color: #371268" id="contactme">
 
         <!--<form
               >
@@ -365,14 +394,14 @@
         </form>-->
         <br />
         <div class="col-lg-12 text-center">
-            <h2 class="section-heading">How does Contacting me sound like? </h2>
+            <h2 class="section-heading swagg" style="color:#fff;">How does Contacting me sound like? </h2>
             <h3 class="section-subheading text-muted"> I'm really looking forward from hearing from you</h3>
 
         </div>
 
 
         <div class="contactform">
-            <form action="https://formspree.io/Lwandilenick@Gmail.com" method="POST">
+            <form action="https://formspree.io/lwandilenick@gmail.com"  method="POST">
                 <div class="row">
                     <div class="col-lg-3"> </div>  <div class="col-lg-6">
                         <div class="form-group ">
@@ -391,13 +420,44 @@
                         </div>
 
 
-                        <button type="submit" value="Send" class ="btn btn-primary">Submit</button>
+                        <button type="submit" formtarget="_blank" value="Send" class ="btn btn-primary">Submit</button>
+
+
+                                                       
                     </div>
                 </div>
             </form>
+            <br />
         </div>
 
     </section>
+
+    
+
+
+
+
+
+
+    <!--<div>
+        
+
+
+        <br /><br /><br /><br />
+
+        <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
+       <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    ...
+                    <p>...</p>     <p>...</p>
+                </div>
+            </div>
+        </div>
+
+        <br /><br /><br /><br />    
+
+    </div>-->
 
 
 
