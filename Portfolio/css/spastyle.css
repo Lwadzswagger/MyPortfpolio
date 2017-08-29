@@ -30,6 +30,7 @@ body{
 
 .lobb {
     font-family: 'Lobster', cursive;
+
 }
 
 .prof{
@@ -39,6 +40,7 @@ body{
 
 .swagg {
     font-family: 'Indie Flower', cursive;
+			text-transform: uppercase;
 }
 /*]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]*/
 .img-circle {
