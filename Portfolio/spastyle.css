@@ -4,9 +4,75 @@
 }
 
  /*]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]*/
-body{
+/*body{
     position:relative;
+}*/
+
+/*<img src="" class="prof img-responsive" alt="My profile" />
+.lending{
+	background: url("../../img/pro.jpg") 0 0 no-repeat fixed;
+	 height: 100%;
+	 overflow: hidden;
+	 color: #FFFFFF
+}*/
+
+
+
+
+
+/*#wrapperHeader{*/
+    /*position: relative;*/
+    /*background-image:url(images/header.png);*/
+		/*background-color:#rgb(160, 172, 151)*/
+/*}*/
+#overlay{
+	/*position: fixed; /* Sit on top of the page content */*/
+    /*display: none; /* Hi/dden by default */*/
+    /*width: 100%; /* Full width (cover the whole page) */*/
+    /*height: 100%; /* Full height (cover the whole page) */*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    /*z-index: 2; /* Specify a stack order in case you're using a different order for other elements */*/
+    /*cursor: pointer; /* Add a pointer on hover */*/
 }
+
+
+.hello{
+ height:800px;
+  width:1502px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .affix{
     top:0;
     width:100%;
@@ -27,10 +93,11 @@ body{
 
 }
 
-.prof{
+/*.prof{
     height:auto;
     width:100%;
-}
+		margin-top: 50px;
+}*/
 
 .swagg {
     font-family: 'Indie Flower', cursive;
